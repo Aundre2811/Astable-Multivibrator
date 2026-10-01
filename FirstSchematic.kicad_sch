@@ -1,0 +1,158 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "65745453-5faf-4a78-8e7e-2df4eb1961b8")
+	(paper "A4")
+	(title_block
+		(title "555 Astable Multivibrator")
+		(date "2026-06-15")
+		(rev "V1.0")
+		(comment 1 "Test Project")
+	)
+	(lib_symbols)
+	(sheet
+		(at 180.34 76.2)
+		(size 64.77 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "373d2cf0-684b-44dd-b03c-36626572067b")
+		(property "Sheetname" "Mounting Holes and Fiducials"
+			(at 180.34 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MH_fiducial.kicad_sch"
+			(at 180.34 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FirstSchematic"
+				(path "/65745453-5faf-4a78-8e7e-2df4eb1961b8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 74.93)
+		(size 58.42 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60b57d90-0d02-4b4b-bab8-19c23b9fcc39")
+		(property "Sheetname" "555 Timer"
+			(at 22.86 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "555_Timer.kicad_sch"
+			(at 22.86 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FirstSchematic"
+				(path "/65745453-5faf-4a78-8e7e-2df4eb1961b8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 74.93)
+		(size 62.23 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8acaa093-2a44-42f1-b9a1-33ee90310690")
+		(property "Sheetname" "Power"
+			(at 99.06 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 99.06 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FirstSchematic"
+				(path "/65745453-5faf-4a78-8e7e-2df4eb1961b8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
